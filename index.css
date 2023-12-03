@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+#login-container, #app-container {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#login-container{
+    height: auto;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin: 10%;  
+
+}
+.btn1{
+    height: auto;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: white;
+    display: inline;
+    
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    flex-wrap: wrap;
+
+}
+
+.label b{
+    text-align:left;
+
+}
+input{
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    font-size: 18px;
+}
+#btnAddItem{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+.sec2{
+    height: auto;
+    width: auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /* box-shadow: 0px 0px 1px 1px black; */
+    
+}
+.div1{
+    height: 300px;
+    width: 300px;
+    gap: 10px;
+    box-shadow: 0 0 1px 1px black;
+    text-align: center;
+    border-radius: 10px;
+}
